@@ -3,6 +3,7 @@ body{
     margin: 15px;   
     box-sizing: border-box;     
     padding-right:  25px;
+    background-color: cyan;
 }
 
 .header{
@@ -100,6 +101,9 @@ gap: 10px;
 /* Media querys para tableta */
 
 @media (max-width: 768px) {
+    body{
+        background-color: bisque;
+    }
     .main-container{
         flex-direction: column;
     }
@@ -118,7 +122,10 @@ body{
 }
 /* Media querys para movil */
 
-@media (max-width: 600px) {    
+@media (max-width: 600px) { 
+    body{
+        background-color: blueviolet;
+    }   
     .nav-bar{flex-direction: column ;}
     .main-container{
         flex-direction: column;
