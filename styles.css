@@ -27,7 +27,14 @@ body{
     flex : 20%;
     background-color: brown;
     text-align: center;
+    transition: scale 2s, background-color 2s;
 }
+
+.n-left:hover {
+  scale: 1.2;
+  background-color: blueviolet;
+}
+
 .n-center{
     flex: 60%;
     text-align: center;
