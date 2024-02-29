@@ -116,3 +116,27 @@ body{
     padding-right:  25px;
 }
 }
+/* Media querys para movil */
+
+@media (max-width: 600px) {    
+    .nav-bar{flex-direction: column ;}
+    .main-container{
+        flex-direction: column;
+    }
+    
+    .right-side{
+        border-left: none;
+        border-top:10px solid yellow;
+    }
+    .left-side{
+        flex-direction: column;
+    }
+    
+.main-container{
+   
+    border: 10px solid yellow;
+}
+body{
+    padding-right:  25px;
+}
+}
