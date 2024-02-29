@@ -97,3 +97,22 @@ gap: 10px;
     background-color: chocolate;
     border: 10px solid black;
 }
+/* Media querys para tableta */
+
+@media (max-width: 768px) {
+    .main-container{
+        flex-direction: column;
+    }
+    .right-side{
+        border-left: none;
+        border-top:10px solid yellow;
+    }
+    
+.main-container{
+   
+    border: 10px solid yellow;
+}
+body{
+    padding-right:  25px;
+}
+}
